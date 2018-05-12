@@ -1,0 +1,45 @@
+body{
+    max-width: 960px;
+    margin-left:150px;
+}
+
+
+.rightnav{
+    float:right;
+    font-size: 16px;
+    background-color:azure;
+}
+
+.leftimage
+{
+    float:left;
+    color:red;
+    background-color:blue;
+    font-size:36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#masterHead{
+    background-color:White;
+    height:100px;
+}
+
+.container{
+    background-color: lightblue;
+}
+
+.portfolioimage
+{
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+.porttext{
+    float:right;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+}
