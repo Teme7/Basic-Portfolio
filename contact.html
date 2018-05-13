@@ -3,16 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <title>My Profile Page</title>
+        <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        
-        <header>Temesgen Sahle</header>
+        <header class="topHead">
+            <div class="container">
+                <h1 class="myName">Temesgen Sahle</h1>
+                <nav class="rightNav">
+                    <a href="#">About</a>
+                    <a href="porfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
 
-        <h2>Contact</h2>
+        <section class="biggerBox">
+            <div class="bigBox" class="container">
+                <div>
+                    <h1 class="detail">Contact</h1>
+                </div>
+            
+                <section>
+                    <form class="personalInfo">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" class="name" placeholder="First Name Last Name" required="required">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="text" name="email" class="email" placeholder="example@gmail.com" required="required">
+                            </li>
+                            <li>
+                                <lable for="message">Message</lable>
+                                <textarea class="message" name="message" required="required"></textarea>
+                            </li>
+                        </ul>
 
-        <h3>About</h3>
+                        <input type="submit" name="submit">
+                        
+                    </form>
+                    
 
-        <h3>Portfolio</h3>
+                </section>      
 
-        <h3>Contact</h3>
-
+            </div>
+        </section>
+        <footer>
+            <div class="bottomContainer">
+                Copyright ©
+            </div>
+        </footer>
+    </body>
+</html>
