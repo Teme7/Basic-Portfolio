@@ -5,7 +5,7 @@ body {
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
-}
+    }
 
 .container {
     width: 100%;
@@ -13,14 +13,15 @@ body {
     margin: 0 auto;
     clear: both;
 }
-.rightNav{
+.rightNav {
     float:right;
     font-size: 20px;
     font-weight: 100;
     background-color:lightblue;
+    padding-right: 15px;
 }
 
-.myName{
+.myName {
     height: 100px;
     width: 350px;
     line-height: 100px;
@@ -33,7 +34,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.topHead{
+.topHead {
     background-color: lightblue;
     height:100px;
     width: 100%;
@@ -49,6 +50,7 @@ nav a {
     color: darkslateblue;
     display: inline-block;
     line-height: 20px;
+    padding-left: 15px;
 }
 
 .container{
@@ -86,10 +88,6 @@ h2, h3 {
 }
 
 footer {
-    /* position:fixed; */
-    /* bottom:0; */
-    /* text-align: center; */
-    /* width: 100%; */
     color: white;
     background: gray;
     /* padding: 30px 0; */
@@ -98,6 +96,7 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+
 
 /* unable to style the personalInfo class in Contact and many classes in Portfolio files: VS Code kept telling
  me "Do not use empty rulesets" */
@@ -112,7 +111,7 @@ textarea {
     height: 200px;
 }
 input[type=submit] {
-    background-color: blue;
+    background-color: darkslateblue;
     color: white;
     font-size: 20px;
     cursor: pointer;
